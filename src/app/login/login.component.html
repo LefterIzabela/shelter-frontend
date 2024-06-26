@@ -1,0 +1,18 @@
+<app-menu-navbar></app-menu-navbar>
+
+<form [formGroup]="userForm" class="form-container">
+  <p>Login</p>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Username</mat-label>
+    <input matInput formControlName="username">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Password</mat-label>
+    <input type="password" matInput formControlName="password">
+  </mat-form-field>
+
+  <button mat-raised-button (click)="onSubmit()">Submit</button>
+  <p class="no-account">Don't have an account? <a [routerLink]="['/signup']">Sign Up</a></p>
+</form>

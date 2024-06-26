@@ -1,0 +1,27 @@
+<div class="nav-bar">
+    <a [routerLink]="['/']">
+        <img src="/assets/pet-house.png" width="50px" height="inherit">
+    </a>
+    <ul class="nav-list">
+        <button class="support-button" mat-flat-button extended [routerLink]="['/contact-us']">
+            <mat-icon>perm_contact_calendar</mat-icon>
+            Contact Us
+        </button>
+        <button class="support-button" mat-flat-button extended [routerLink]="['/animal',1]">
+            <mat-icon>favorite</mat-icon>
+            Adopt</button>
+        <button *ngIf="authService.isLoggedIn()" class="support-button" mat-flat-button extended (click)="logout()">
+            <mat-icon>logout</mat-icon>
+            Logout</button>
+    </ul>
+</div>
+
+<div class="second-nav-bar">
+    <ul class="second-nav-list">
+        <button class="animal-button" mat-flat-button extended [routerLink]="['/animal','DOG']">
+            Dogs
+        </button>
+        <button class="animal-button" mat-flat-button extended [routerLink]="['/animal','CAT']">
+            Cats</button>
+    </ul>
+</div>

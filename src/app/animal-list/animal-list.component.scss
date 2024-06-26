@@ -1,0 +1,28 @@
+.animal-card{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.card-image{
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.card-header{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-content{
+    flex:1;
+    margin-top: 30px;
+
+    p{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,38 @@
+.image{
+    position: relative;
+    background: url('/assets/image-carousel.jpg');
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+
+
+}
+
+.image::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 24, 2, 0.505);
+    z-index: 1; 
+}
+
+.image-text{
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-wrap: wrap;
+    line-height: 60px;
+    text-align: center;
+    position:absolute;
+    font-weight: bold;
+    bottom: 5%;
+    right: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40%;
+    z-index: 2;
+}

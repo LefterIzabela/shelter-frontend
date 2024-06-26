@@ -1,0 +1,40 @@
+.contact-us-container {
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contact-us-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us-card-header,
+  .contact-us-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-us-card-header {
+    margin-bottom: 20px;
+  }
+  
+  .contact-us-card-content p {
+    margin: 10px 0;
+  }
+  
+  .contact-us-card-content a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .contact-us-card-content a:hover {
+    text-decoration: underline;
+  }
