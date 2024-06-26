@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-shelter-dev-6dc73-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423638222:role/amplify-shelter-dev-6dc73-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423638222:role/amplify-shelter-dev-6dc73-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-shelter-dev-6dc73-deployment",
+      "UnauthRoleName": "amplify-shelter-dev-6dc73-unauthRole",
+      "StackName": "amplify-shelter-dev-6dc73",
+      "StackId": "arn:aws:cloudformation:eu-north-1:637423638222:stack/amplify-shelter-dev-6dc73/04c12610-33bc-11ef-91d5-0ef059c00c20",
+      "AmplifyAppId": "d2yhkzp0oh03lj"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
